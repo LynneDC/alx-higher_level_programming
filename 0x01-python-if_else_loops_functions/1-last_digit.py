@@ -9,4 +9,4 @@ if number < 0:
 if a > 5:
     print("{} {} is {} and is greater than 5".format(b, number, a, end=""))
 elif a == 0:
-    print("{} {} is {} and is 0".format(b, nunber, a, end=""))
+    print("{} {} is {} and is 0".format(b, number, a, end=""))
