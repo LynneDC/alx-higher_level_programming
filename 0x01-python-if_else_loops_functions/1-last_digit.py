@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
+<<<<<<< HEAD
 string = "Last digit of"
 digit = abs(number) % 10
 if number < 0:
@@ -12,3 +13,14 @@ elif digit == 0:
 	print("{} {} is {} and is 0".format(string, number, digit, end="") )
 #else:
 #	print("{} {} is {} and is less than 6 and not 0".format(string, number, digit, end=""))
+=======
+b = "Last digit of"
+a = abs(number) % 10
+if number < 0:
+    a = -a
+    print("{} {} is {} and is less than 6 and not 0".format(b, number, a, end=""))
+if a > 5:
+    print("{} {} is {} and is greater than 5".format(b, number, a, end=""))
+elif a == 0:
+    print("{} {} is {} and is 0".format(b, number, a, end=""))
+>>>>>>> 511b8b1ca5e0a725442493a9eb0536feb303da98
