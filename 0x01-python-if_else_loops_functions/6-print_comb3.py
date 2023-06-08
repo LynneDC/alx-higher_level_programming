@@ -4,7 +4,7 @@ for num1 in range(9):
         if num2 < num1:
             continue
         if num2 == 9 and num1 == 8:
-            print(f"{num1}{num2}")
+            print("{}{}".format(num1, num2))
             break
         if num1 != num2:
-            print(f"{num1}{num2}, ", end="")
+            print("{}{}, ".format(num1, num2), end="")
