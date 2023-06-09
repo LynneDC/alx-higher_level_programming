@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#function that check if letter entered is lower
+# function that check if letter entered is lower
 
 def islower(c):
     for a in range(97, 123):
