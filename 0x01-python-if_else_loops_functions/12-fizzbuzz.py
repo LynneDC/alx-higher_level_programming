@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 str1 = "Fizz "
 str2 = "Buzz "
-str3 = "FizzBuzz"
+str3 = "FizzBuzz "
 def fizzbuzz():
     for num in range(1, 100):
 #    print("{}".format(num))
