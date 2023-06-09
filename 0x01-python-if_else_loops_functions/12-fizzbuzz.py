@@ -2,9 +2,10 @@
 str1 = "Fizz "
 str2 = "Buzz "
 str3 = "FizzBuzz "
+
+
 def fizzbuzz():
     for num in range(1, 101):
-#    print("{}".format(num))
         if num % 3 == 0 and num % 5 == 0:
             print("{}".format(str3), end="")
         elif num % 3 == 0:
