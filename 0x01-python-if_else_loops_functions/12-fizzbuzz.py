@@ -6,10 +6,10 @@ def fizzbuzz():
     for num in range(1, 100):
 #    print("{}".format(num))
         if num % 3 == 0 and num % 5 == 0:
-            print("{} ".format(str3), end="")
+            print("{}".format(str3), end="")
         elif num % 3 == 0:
-            print("{} ".format(str1), end="")
+            print("{}".format(str1), end="")
         elif num % 5 == 0:
-            print("{} ".format(str2), end="")
+            print("{}".format(str2), end="")
         else:
             print("{} ".format(num), end="")
