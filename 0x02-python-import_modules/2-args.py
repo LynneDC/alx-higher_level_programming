@@ -7,9 +7,6 @@ if __name__ == "__main__":
 
     if count == 0:
         print("{} arguments.".format(count))
-#    if count == 1:
-#        print("{} argument:".format(count))
-        
     if count >= 1:
         print("{} {}:".format(count, args))
         count = 0
