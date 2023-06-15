@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 import string
-print(string.ascii.uppercaese)
+print(string.ascii_uppercaese)
