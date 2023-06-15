@@ -11,7 +11,7 @@ if __name__ == "__main__":
 #        print("{} argument:".format(count))
         
     if count >= 1:
-        print("{} {}: ".format(count, args))
+        print("{} {}:".format(count, args))
         count = 0
         for arg in sys.argv:
             if count != 0:
