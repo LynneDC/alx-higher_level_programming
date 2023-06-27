@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# 5-square
+
 
 class Square:
     """This class represents a square."""
@@ -30,6 +30,6 @@ class Square:
         """prints the square using the '#' character."""
         for i in range(0, self.__size):
             [print("#", end="") for j in range(self.__size)]
-            print()
+            print("")
         if self.__size == 0:
             print("")
