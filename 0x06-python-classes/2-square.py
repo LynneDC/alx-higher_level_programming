@@ -14,10 +14,10 @@ class Square:
             """check if size is less tha 0"""
             elif size < 0:
                 """
-		   raise a valueerror message because
-	           the minimum value should be of size 0
-		"""
+                raise a valueerror message because
+                the minimum value should be of size 0
+                """
                 raise ValueError("size must be >= 0")
-            
+
             """assign value to an object"""
             self.__size = size
