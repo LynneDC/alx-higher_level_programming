@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#2-square.py
+# 2-square.py
 """defines a class called square """
 
 
@@ -7,7 +7,6 @@ class Square:
     """define and initilize using init"""
     def __init__(self, size=0):
         """handle errors"""
-       
         """check is size is not digit"""
         if type(size) is not int:
             """print out type error message because its expecting int"""
@@ -20,6 +19,5 @@ class Square:
             """
             raise ValueError("size must be >= 0")
 
-            
         """assign value to an object"""
         self.__size = size
