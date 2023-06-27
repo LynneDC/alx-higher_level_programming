@@ -12,13 +12,13 @@ class Square:
                 """print out type error message because its expecting int"""
                 raise TypeError("size  mustbe an integer")
             """check if size is less tha 0"""
-            elif size < 0:
+            if size < 0:
                 """
                 raise a valueerror message because
                 the minimum value should be of size 0
                 """
                 raise ValueError("size must be >= 0")
 
-	    else:
-	        """assign value to an object"""
-                self.__size = size
+            
+           ""assign value to an object"""
+            self.__size = size
