@@ -11,7 +11,7 @@ class Square:
         """check is size is not digit"""
         if type(size) is not int:
             """print out type error message because its expecting int"""
-            raise TypeError("size  mustbe an integer")
+            raise TypeError("size  must be an integer")
         """check if size is less tha 0"""
         if size < 0:
             """
