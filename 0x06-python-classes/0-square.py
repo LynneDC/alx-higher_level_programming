@@ -1,10 +1,6 @@
 #!/usr/bin/python3
+"""defines a class called square """
 
-"""a function that defines  an empty square class """
-
-"""declare a class with square funcion name"""
 class Square:
-
-	"""silent classthat is empty and does nothing"""
+	"""represent a square"""
     pass
-    """ this code is going to be silenced for future use"""
