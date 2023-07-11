@@ -1,4 +1,4 @@
-#!/usr/bin/pytyhon3
+#!/usr/bin/python3
 """module inherits from list class"""
 
 
