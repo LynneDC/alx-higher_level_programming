@@ -1,6 +1,5 @@
 #!/usr/bin/pytghon3
-"""json module  return dict"""
-import json
+""" module  return dict"""
 
 
 def class_to_json(obj):
