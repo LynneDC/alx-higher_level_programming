@@ -8,4 +8,4 @@ def from_json_string(my_str):
     args:
         my_str: the string to be returned
     """
-    return json.dumps(my_str)
+    return json.loads(my_str)
