@@ -1,4 +1,4 @@
-#!/usr/bin/pytghon3
+#!/usr/bin/python3
 """ module  return dict"""
 
 
