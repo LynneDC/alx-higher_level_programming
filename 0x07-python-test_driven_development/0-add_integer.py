@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""module that perfom arithmetic operations and return sum """
+
 
 def add_integer(a, b=98):
     """
