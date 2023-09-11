@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 // print messages the number of times the arg is given
 const arg = process.argv[2];
 const x = parseInt(arg);
