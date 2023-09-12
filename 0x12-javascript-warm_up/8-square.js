@@ -3,9 +3,7 @@
 
 if (process.argv.length > 2) {
   const y = parseInt(process.argv[2]);
-  if (isNaN(y) || y <= 0) {
-    console.error('Invalid size');
-  } else {
+  if (!isNaN(y) && y > 0) {
     for (let i = 0; i < y; i++) {
       let row = '';
       for (let j = 0; j < y; j++) {
