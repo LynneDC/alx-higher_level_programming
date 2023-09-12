@@ -1,17 +1,12 @@
 #!/usr/bin/node
 // print messages the number of times the arg is given
-
-if (process.argv.length > 2) {
-  const y = parseInt(process.argv[2]);
-  if (!isNaN(y) && y > 0) {
-    for (let i = 0; i < y; i++) {
-      let row = '';
-      for (let j = 0; j < y; j++) {
-        row += 'X';
-      }
-      console.log(row);
-    }
-  }
+if (process.argv[2] === undefined || isNaN(process.argv[2])) {
+  console.log('Missing size');
 } else {
-  console.error('Missing size');
+  const x = Number(process.argv[2]);
+  let i = 0;
+  while (i < x) {
+    console.log('X'.repeat(x));
+    i++;
+  }
 }
