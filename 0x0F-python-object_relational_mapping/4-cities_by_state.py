@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """states models
-   prints all state names 
+   prints all state names
    in ASCE of ID
 """
 if __name__ == "__main__":
@@ -23,7 +23,6 @@ if __name__ == "__main__":
                    ON states.id = cities.state_id\
                    ORDER BY cities.id ASC")
     rows = cursor.fetchall()
-
     for row in rows:
         print(row)
 
