@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """states models
-   prints all state names
+   prints all city names
    in ASCE of ID
 """
 if __name__ == "__main__":
