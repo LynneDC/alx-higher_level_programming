@@ -1,3 +1,3 @@
 #!/bin/bash
 # sends a request and desplay all methods
-curl -sX METHOD "$1"
+curl -sI "$1" | grep "allow" | cut -d " " -f 2-
