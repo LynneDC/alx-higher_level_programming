@@ -1,13 +1,9 @@
 #!/usr/bin/node
-
 const request = require('request');
+const url = process.argv[2];
 
-request(process.argv[2], function (error, response, body) {
-  if (error) {
-    console.error(error);
-  }
-  const movie_num = JSON.parse(body).results.filter((elem) => {
-    return elem.characters.filter((url) => { return url.includes('18'); }).length;
-  }).length;
-  console.log(movie_num);
+request(url, (err, res, body) => {
+  if (err) console.log(err);
+  const count = body.split('/people/18/').length - 1;
+  console.log(count);
 });

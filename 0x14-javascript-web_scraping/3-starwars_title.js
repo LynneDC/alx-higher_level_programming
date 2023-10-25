@@ -1,15 +1,8 @@
 #!/usr/bin/node
-
 const request = require('request');
-const epsd_num = process.argv[2];
-const api_url = 'https://swapi-api.alx-tools.com/api/films/';
+const id = process.argv[2];
 
-request(api_url + epsd_num, function (error, response, body) {
-  if (error) {
-    console.log(error);
-  } else if (response.statusCode === 200) {
-    console.log(JSON.parse(body).title);
-  } else {
-    console.log('Error code: ' + response.statusCode);
-  }
+request(`https://swapi-api.alx-tools.com/api/films/${id}`, { json: true }, (err, res, body) => {
+  if (err) console.log(err);
+  console.log(body.title);
 });
